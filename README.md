@@ -123,6 +123,18 @@ JSON HTTP API для работы с [багтрекером ВКонтакте]
 
 Список из превью всех публично доступных продуктов
 
+```json
+[
+    {
+        "id": 327,
+        "name": "Погода",
+        "join_status": "joined"
+    },
+    {},
+    {}
+]
+```
+
 ## products.getById
 
 Полный объект продукта
@@ -130,3 +142,33 @@ JSON HTTP API для работы с [багтрекером ВКонтакте]
 | Параметр | Описание |
 | -------- | ---------|
 | id       | ID продукта |
+
+```json
+{
+    "id": 327,
+    "name": "Погода",
+    "description": "Сервис с прогнозом погоды: https:\/\/vk.com\/app7028481\n\nВерсию для ПК тестировать не нужно.",
+    "photo": "https:\/\/pp.userapi.com\/c849128\/v849128436\/1c78ce\/CMvv5W6utkI.jpg?ava=1",
+    "testing_completed": 0,
+    "counters": {
+        "members": 209,
+        "bugs": 81,
+        "bugs_open": 80,
+        "bugs_in_process": 0,
+        "bugs_fixed": 0
+    },
+    "versions": [
+        {
+            "id": 2073,
+            "name": "1.0",
+            "release_notes": "",
+            "time": 1561642140,
+            "counters": {
+                "bugs": 81,
+                "fixed_bugs": 0,
+                "vulnerabilities": 0
+            }
+        }
+    ]
+}
+```
