@@ -13,7 +13,6 @@ JSON HTTP API для работы с [багтрекером ВКонтакте]
 | access_token | Ключ доступа, полученный у чат-бота |
 | v            | Номер версии                        |
 
-# Доступные методы
 
 ## bugtracker.getReportsPreview
 
